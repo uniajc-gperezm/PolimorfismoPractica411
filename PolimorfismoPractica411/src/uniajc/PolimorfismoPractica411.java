@@ -15,6 +15,18 @@ public class PolimorfismoPractica411 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+
+        Animal myAnimal = new Animal();
+        Perro myPerro = new Perro();
+        Gato myGato = new Gato();
+
+        myAnimal.hacerSonido();
+        myPerro.hacerSonido();
+        myGato.hacerSonido();
+        
+        Calculadora operacion = new Calculadora();
+        
+        operacion.suma(1, 2, 3);
     }
-    
+
 }
